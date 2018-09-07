@@ -11,20 +11,20 @@
  *            Rev      Date     Modified by:  Reason for change/modification
  *           -----  ----------  ------------  -----------------------------------------------------------
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-import copiersupport.*;
+import copiersupport.SourceFile;
+import copiersupport.TargetFile;
 import java.util.Scanner;
 
 public class MyFileCopier{
 
-  public static void main(Sting args[]){
-    Scanner fileScanner = new Scanner(System.in);
-    System.out.println("Please enter a file name: ");
-    String fileName = fileScanner.next();
+  public static void main(String args[]){
+    // Scanner fileScanner = new Scanner(System.in);
+     System.out.println("Please enter a file name: ");
+     String fileName = fileScanner.next();
 
-    //get source file content
-    SourceFile sourceFile = new SourceFile( fileName );
-    sourceFile.close();
-    TargetFile targetFile = new TargetFile( fileName, sourceFile.getContents());
-    targetFile.close();
+     SourceFile sourceFile = new SourceFile( fileName );
+     String fileText = sourceFile.getFileContent();
+     TargetFile targetFile = new TargetFile( fileText, fileName);
+
   }
 }
