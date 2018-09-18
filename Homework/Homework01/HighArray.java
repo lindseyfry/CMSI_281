@@ -39,6 +39,35 @@ class HighArray
      }                                   // no, found it
     }  // end find()
    //-----------------------------------------------------------
+   public long getMax(){
+     if (nElems == 0) {
+       return EMPTY_ARRAY;
+     }
+     else {
+       for (int i = 0; i < nElems; i++) {
+         if (a[i] > max_value) {
+           max_value = a[i];
+         }
+       }
+     }
+     return max_value;
+   }
+   public void noDups(){
+     int count = 0;
+     for (int j = 0; j < nElems; j++){
+       for(int i = j + 1; i < nElems; i++){
+         if(a[j] == a[i]){
+           a[i] = -1;
+           count ++;
+         }
+       }
+     }
+     for(int l = 0; l < count; l++){
+       this.delete(-1);
+     }
+     //return nElems;
+   }
+   
    public void insert(long value){    // put element into array
      a[nElems] = value;             // insert it
      nElems++;                      // increment size
@@ -68,35 +97,6 @@ class HighArray
        System.out.println("");
      }
    }
-
-    public long getMax(){
-      if (nElems == 0) {
-        return EMPTY_ARRAY;
-      }
-      else {
-        for (int i = 0; i < nElems; i++) {
-          if (a[i] > max_value) {
-            max_value = a[i];
-          }
-        }
-      }
-      return max_value;
-    }
-    public void noDups(){
-      int count = 0;
-      for (int j = 0; j < nElems; j++){
-        for(int i = j + 1; i < nElems; i++){
-          if(a[j] == a[i]){
-            a[i] = -1;
-            count ++;
-          }
-        }
-      }
-      for(int l = 0; l < count; l++){
-        this.delete(-1);
-      }
-      //return nElems;
-    }
    //-----------------------------------------------------------
    }  // end class HighArray
 ////////////////////////////////////////////////////////////////
