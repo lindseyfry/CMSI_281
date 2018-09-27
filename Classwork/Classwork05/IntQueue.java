@@ -1,3 +1,11 @@
+/** ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*  File name     :  IntQueue.java
+*  @author       :  Lindsey Fry
+*  Date written  :  2018-09-27
+*
+*  Notes         :  None right now.  I'll add some as they occur.
+*  Warnings      :  None
+* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 public class IntQueue {
 
       IntLinkedList myQueue;
@@ -54,6 +62,15 @@ public class IntQueue {
          testQueue.enQueue( testQueue.deQueue() + testQueue.deQueue() );
          System.out.println( "The front of the Queue: " + testQueue.peek() );      // what'll it be?
          System.out.println( "Current Stack: " + testQueue.toString());
+            
+         testQueue.deQueue();
+         testQueue.deQueue();
+         testQueue.deQueue();
+         testQueue.enQueue(400);
+         testQueue.enQueue(652);
+         testQueue.enQueue(7921);
+         testQueue.deQueue();
+         System.out.println("Front of the Queue " + testQueue.toString());
       }
 
    }
