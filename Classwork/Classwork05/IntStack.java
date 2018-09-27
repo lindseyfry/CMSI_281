@@ -1,3 +1,11 @@
+/** ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*  File name     :  IntStack.java
+*  @author       :  Lindsey Fry
+*  Date written  :  2018-09-27
+*
+*  Notes         :  None right now.  I'll add some as they occur.
+*  Warnings      :  None
+* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 public class IntStack {
 
       IntLinkedList myStack;
