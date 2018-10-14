@@ -75,6 +75,8 @@ public class Queue{
         theQueue.insert( 5 );
         theQueue.insert( 32 );
         theQueue.insert( 3 );
+        theQueue.displayQueue( );
+
 
         //testing remove
         System.out.println( "Test Remove" );
@@ -84,6 +86,7 @@ public class Queue{
         System.out.println( " Remove 5 " );
         theQueue.remove();
         System.out.println( " Remove 32 " );
+        theQueue.displayQueue( );
 
         //testing wraparound
         System.out.println( "Test Wrap Around " );
@@ -91,6 +94,7 @@ public class Queue{
         theQueue.insert( 12 );
         theQueue.insert( 45 );
         theQueue.insert( 48 );
+        theQueue.displayQueue( );
 
         // testing displayQueue
         System.out.println( "Test Display " );
@@ -98,7 +102,7 @@ public class Queue{
         theQueue.displayQueue( );
         System.out.println();
 
-        System.out.println( " Adding 13" );
+        System.out.println( " Adding 13 " );
         theQueue.insert( 13 );
         System.out.print( " Current queue: " );
         theQueue.displayQueue();
