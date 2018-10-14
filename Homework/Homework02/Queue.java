@@ -67,45 +67,45 @@ public class Queue{
   }
 
   public static void main( String args[] ) {
-        Queue theQueue = new Queue(5);
+        Queue newQueue = new Queue(5);
 
         //testing insert
         System.out.println( "Test Insert" );
-        theQueue.insert( 1 );
-        theQueue.insert( 5 );
-        theQueue.insert( 32 );
-        theQueue.insert( 3 );
-        theQueue.displayQueue( );
+        newQueue.insert( 1 );
+        newQueue.insert( 5 );
+        newQueue.insert( 32 );
+        newQueue.insert( 3 );
+        newQueue.displayQueue( );
 
 
         //testing remove
         System.out.println( "Test Remove" );
-        theQueue.remove();
+        newQueue.remove();
         System.out.println( " Remove 1 " );
-        theQueue.remove();
+        newQueue.remove();
         System.out.println( " Remove 5 " );
-        theQueue.remove();
+        newQueue.remove();
         System.out.println( " Remove 32 " );
-        theQueue.displayQueue( );
+        newQueue.displayQueue( );
 
         //testing wraparound
         System.out.println( "Test Wrap Around " );
-        theQueue.insert( 14 );
-        theQueue.insert( 12 );
-        theQueue.insert( 45 );
-        theQueue.insert( 48 );
-        theQueue.displayQueue( );
+        newQueue.insert( 14 );
+        newQueue.insert( 12 );
+        newQueue.insert( 45 );
+        //newQueue.insert( 48 );
+        newQueue.displayQueue( );
 
         // testing displayQueue
         System.out.println( "Test Display " );
         System.out.print( " Current queue: " );
-        theQueue.displayQueue( );
+        newQueue.displayQueue( );
         System.out.println();
 
         System.out.println( " Adding 13 " );
-        theQueue.insert( 13 );
+        newQueue.insert( 13 );
         System.out.print( " Current queue: " );
-        theQueue.displayQueue();
+        newQueue.displayQueue();
     }
 
 }
