@@ -1,3 +1,12 @@
+/** ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*  File name     :  CircularStack.java
+*  @author       :  Lindsey Fry and Joe Gorman
+*  Date written  :  2018-10-13
+*
+*  Notes         :  None right now.  I'll add some as they occur.
+*  Warnings      :  None
+* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
 public class CircularStack {
 
 
