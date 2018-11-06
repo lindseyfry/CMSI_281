@@ -1,3 +1,12 @@
+/** ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*  File name     :  BubbleSortApp.java
+*  @author       :  Lindsey Fry and Joe Gorman
+*  Date written  :  2018-11-06
+*
+*  Notes         :  None right now.  I'll add some as they occur.
+*  Warnings      :  None
+* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
 class BubbleSortApp
 {
 public static void main(String[] args)
