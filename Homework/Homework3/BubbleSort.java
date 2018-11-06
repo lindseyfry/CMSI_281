@@ -1,3 +1,12 @@
+/** ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*  File name     :  BubbleSort.java
+*  @author       :  Lindsey Fry and Joe Gorman
+*  Date written  :  2018-11-06
+*
+*  Notes         :  None right now.  I'll add some as they occur.
+*  Warnings      :  None
+* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
 // oddEven.java
 // demonstrates bubble sort
 // to run this program: C>java BubbleSortApp
