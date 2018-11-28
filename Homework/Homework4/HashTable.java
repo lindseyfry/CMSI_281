@@ -52,12 +52,12 @@ class HashTable {
 // -------------------------------------------------------------
   public int hashFunc(int key) //worked on this function with Kathryn Cole and Joe Gorman to gain new ideas and insights
   {
-    int digitGroup = 1;
+    int digitGroup = 3;
     int value = 0;
     int newSize = arraySize;
     while(newSize > 0){
-      newSize = newSize/10;
       digitGroup = digitGroup * 10;
+      newSize = newSize/10;
     }
     System.out.print(digitGroup);
     while(key > 0){
