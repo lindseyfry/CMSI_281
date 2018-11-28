@@ -1,11 +1,11 @@
-/** ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-*  File name     :  Heap.java
-*  @author       :  Lindsey Fry and Joe Gorman
-*  Date written  :  2018-11-28
-*
-*  Notes         :  None right now.  I'll add some as they occur.
-*  Warnings      :  None
-* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/** Heap.java   1.0.0   27-November-2018
+**** PROBLEM 2
+*  Purpose    : 
+                
+*  Author     : Joe Gorman & Lindsey Fry
+*  Description: 
+*               
+**/
 
 import java.io.*;
 
