@@ -50,7 +50,7 @@ class HashTable {
     System.out.println("");
   }
 // -------------------------------------------------------------
-  public int hashFunc(int key)
+  public int hashFunc(int key) //worked on this function with Kathryn Cole and Joe Gorman to gain new ideas and insights
   {
     int digitGroup = 1;
     int value = 0;
