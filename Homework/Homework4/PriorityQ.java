@@ -1,11 +1,11 @@
-/** ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-*  File name     :  PriorityQ.java
-*  @author       :  Lindsey Fry and Joe Gorman
-*  Date written  :  2018-11-28
-*
-*  Notes         :  None right now.  I'll add some as they occur.
-*  Warnings      :  None
-* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/** PriorityQ.java   1.0.0   27-November-2018
+**** PROBLEM 3
+*  Purpose    : Class that inserts, finds,
+                and deletes
+*  Author     : Joe Gorman & Lindsey Fry
+*  Description: 
+*               
+**/
 // priorityQ.java
 // demonstrates priority queue
 // to run this program: C>java PriorityQApp
