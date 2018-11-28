@@ -1,3 +1,12 @@
+/** ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*  File name     :  Heap.java
+*  @author       :  Lindsey Fry and Joe Gorman
+*  Date written  :  2018-11-28
+*
+*  Notes         :  None right now.  I'll add some as they occur.
+*  Warnings      :  None
+* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
 import java.io.*;
 
 class Node {
