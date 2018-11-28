@@ -47,17 +47,17 @@ class HashTable {
     int digitGroup = 1;
     int value = 0;
     int newSize = arraySize;
-
     while(newSize > 0){
       newSize = newSize/10;
       digitGroup = digitGroup * 10;
     }
+    System.out.print(digitGroup);
     while(key > 0){
       value = value + (key % digitGroup);
       key = key/digitGroup;
     }
     //return key.length(); // hash function
-    return value;
+    return value % newSize;
   }
 // -------------------------------------------------------------
   public void insert(DataItem item){ // insert a DataItem
@@ -103,4 +103,8 @@ class HashTable {
     return null; // can’t find item
   }
     // -------------------------------------------------------------
+    public static void main( String args[] ){
+      HashTable priorQ = new HashTable( 10 );
+            priorQ.hashFunc( 400 );
 } // end class HashTable
+}
