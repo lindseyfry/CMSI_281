@@ -49,12 +49,12 @@ class HashTable {
     int newSize = arraySize;
 
     while(newSize > 0){
-      newSize /= 10;
-      digitGroup *= 10;
+      newSize = newSize/10;
+      digitGroup = digitGroup * 10;
     }
     while(key > 0){
-      value += key%digitGroup;
-      key /= digitGroup;
+      value = value + (key % digitGroup);
+      key = key/digitGroup;
     }
     //return key.length(); // hash function
     return value;
